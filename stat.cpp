@@ -25,8 +25,11 @@ int main()
         cout << "1-enter a new data set\n";
         cout << "2-load a data set\n";
         cout << "3-display a data set\n";
+        cout << "4-median\n";
+        cout << "5-formula\n";
+        cout << "6-MSE\n";
         cout<<"E-End\n";
-        cout << "choose 1 or 2 or 3 or 4 or 6 or 7 or 8 or E: \n";
+        cout << "choose 1 or 2 or 3 or 4 or 5 or 6 or E: \n";
 
         cin >> choice;
         if(choice=="1")
@@ -55,15 +58,15 @@ int main()
             break;
         }
 
-        if (choice=="7"){
+        if (choice=="4"){
             median();
         }
 
-        if (choice=="8")
+        if (choice=="5")
         {
             formula ();
         }
-        if (choice=="9"){
+        if (choice=="6"){
             MSE();
         }
     }
